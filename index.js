@@ -8,4 +8,4 @@ app.get('/', function(req, res) {
 
 const PORT = 8080;
 app.listen(PORT);
-console.log('Running on http://localhost' + PORT);
+console.log('Running on http://localhost:' + PORT);
